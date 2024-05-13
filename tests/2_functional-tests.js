@@ -42,10 +42,10 @@ suite('Functional Tests', function () {
 
         .end(function (err, res) {
           //assert.fail();
-          assert.equal(res.status, 200, 'response should be 200');
-          assert.equal(res.type, 'application/json', 'type should be application/json');
-          assert.equal(res.body.name, 'Cristoforo', 'name should be Cristoforo');
-          assert.equal(res.body.surname, 'Colombo', 'surname should be Colombo');
+          assert.equal(res.status, 200, 'response status should be 200');
+          assert.equal(res.type, 'application/json', 'Response should be json');
+          assert.equal(res.body.name, 'Cristoforo', 'res.body.name should be Cristoforo');
+          assert.equal(res.body.surname, 'Colombo', 'res.body.surname should be Colombo');
 
 
           done();
