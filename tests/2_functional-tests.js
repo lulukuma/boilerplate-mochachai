@@ -77,7 +77,7 @@ suite('Functional Tests with Zombie.js', function () {
   suiteSetup(function(done) {
     return browser.visit('/', done);
   });
-  this.timeout(5000);
+ // this.timeout(5000);
 
 
 
