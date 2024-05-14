@@ -70,7 +70,7 @@ suite('Functional Tests', function () {
 });
 
 const Browser = require('zombie');
-browser.site = 'https://lulukuma-boilerplatemoc-l7f86lfys17.ws-us110.gitpod.io/';
+browser.site = 'https://3000-lulukuma-boilerplatemoc-l7f86lfys17.ws-us110.gitpod.io';
 const browser = new Browser();
 suite('Functional Tests with Zombie.js', function () {
   this.timeout(5000);
